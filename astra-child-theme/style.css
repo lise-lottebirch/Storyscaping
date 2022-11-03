@@ -1,0 +1,86 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    https://storyscaping.lise-lottebirchnielsen.dk
+ Description:  Astra Child Theme is based on the mother theme Astra
+ Author:       Lise-Lotte Birch Nielsen
+ Author URI:   https://lise-lottebirchnielsen.dk
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-menu, Eget logo, Underholdning, En kolonne, To kolonner, Venstre sidebar, E-Commerce, Højre sidebar, Egne farver, Editor-stylesheet, Udvalgte billeder, Fuld bredde, microformats, Indlægsformater, rtl-language-support, Temafunktioner, threaded-comments, translation-ready, Blog
+ Text Domain:  Storyscaping La Cabra X Grums
+*/
+
+/*-------------- QUIZ DESIGN --------------*/
+
+/* Baggrundsfarven */
+.qsm-quiz-container.qmn_quiz_container.mlw_qmn_quiz.quiz_theme_default {
+    background-color: #685f5a !important;
+}
+
+/* Indholdet */
+.qsm-quiz-container{
+  	color: #f5f8f5;	
+ 	text-align: center;
+    margin: 80px !important;
+    padding: 50px 30px 50px 30px;
+}
+
+/* Spørgsmålene */
+.quiz_section .mlw_qmn_new_question {
+    font-weight: bold;
+    display: inline;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+/*Skriftstørrelse til svarmulighederne*/
+label {
+    font-size: 18px !important;
+}
+
+/* Næste-knappen*/
+a.qsm-btn.qsm-next.qmn_btn.mlw_qmn_quiz_link.mlw_next { 
+  	border-radius: 30px !important;
+    background-color: #8d9ba8 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+/* Tilbage knappen skal IKKE vises */
+a.qsm-btn.qsm-previous.qmn_btn.mlw_qmn_quiz_link.mlw_previous {
+    display: none !important;
+}
+
+/* Resultat-knappen */
+.qmn_quiz_container .qmn_btn, .qmn_quiz_container .btn {
+  	font-size: 18px !important;  
+  	border-radius: 30px !important;
+}
+input.qsm-btn.qsm-submit-btn.qmn_btn {
+    background: #8d9ba8 !important;
+}
+
+/* Prøv-igen knappen */
+input[type="submit"] {
+  margin-top: 50px;
+}
+
+
+/*-------------- QUIZ MOBIL VERSION --------------*/
+
+@media only screen and (max-width:500px) {
+
+/* Quiz - indholdet (overskrifterne) */
+h3, .entry-content h3 {
+    font-size: 16px;
+} 
+.quiz_section .mlw_qmn_new_question {
+    font-size: 16px;
+}
+ 
+}
+
+
